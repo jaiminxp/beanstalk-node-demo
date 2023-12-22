@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Welcome to Elastic Beanstalk Node.js App!',
+    message: 'Welcome to EB Node.js App!',
   })
 })
 
